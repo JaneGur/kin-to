@@ -2,9 +2,13 @@
 
 import './style.css'
 import {Container} from "@/shared/ui/container";
-import {AdminOrderDetails, AdminOrdersList, AdminStats, AdminStopList, HeaderTitle} from "@/widgets/AdminCabinet/ui";
 import {useAppSelector} from "@/common/hooks/useAppSelector";
-import {selectThemeMode} from "@/app/admin/admin-slice";
+import {AdminOrderDetails} from "@/widgets/Admin/admin-order-details";
+import {AdminOrdersList} from "@/widgets/Admin/admin-orders-list";
+import {AdminStats} from "@/widgets/Admin/admin-stats";
+import {AdminStopList} from "@/widgets/Admin/admin-stop-list";
+import {HeaderTitle} from "@/widgets/Admin/admin-header";
+import {selectThemeMode} from "@/entities/admin/theme/model/slice";
 
 export default function AdminCabinetPage() {
 

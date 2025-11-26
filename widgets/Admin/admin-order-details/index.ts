@@ -1,0 +1,1 @@
+export {AdminOrderDetails} from './ui/admin-order-details'
