@@ -1,0 +1,235 @@
+.admin-page {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #050505;
+    color: white;
+}
+
+.adminPageLight {
+    background-color: #eef4ff !important;
+    background-image: radial-gradient(circle at 20% -10%, rgba(255,255,255,0.7), transparent 55%), radial-gradient(circle at 80% 0%, rgba(255,255,255,0.8), transparent 45%);
+}
+
+/* ========== ТЕКСТ ========== */
+.adminPageLight .text-white {
+    color: #0f172a !important;
+}
+
+.adminPageLight .text-white\/90 {
+    color: #1e293b !important;
+}
+
+.adminPageLight .text-white\/80 {
+    color: #334155 !important;
+}
+
+.adminPageLight .text-white\/70 {
+    color: #475569 !important;
+}
+
+.adminPageLight .text-white\/60 {
+    color: #64748b !important;
+}
+
+.adminPageLight .text-white\/50 {
+    color: #94a3b8 !important;
+}
+
+/* Акцентные цвета остаются яркими */
+.adminPageLight .text-yellow-400,
+.adminPageLight .text-yellow-300 {
+    color: #c2410c !important;
+}
+
+.adminPageLight .text-yellow-400\/80 {
+    color: #b45309 !important;
+}
+
+.adminPageLight .text-emerald-200,
+.adminPageLight .text-emerald-300,
+.adminPageLight .text-emerald-400 {
+    color: #047857 !important;
+}
+
+.adminPageLight .text-sky-300,
+.adminPageLight .text-sky-400 {
+    color: #0369a1 !important;
+}
+
+.adminPageLight .text-red-200,
+.adminPageLight .text-red-300,
+.adminPageLight .text-red-400 {
+    color: #b91c1c !important;
+}
+
+.adminPageLight .text-indigo-400 {
+    color: #4f46e5 !important;
+}
+
+/* ========== КАРТОЧКИ МЕТРИК (сверху) ========== */
+.adminPageLight .bg-gradient-to-br.from-black {
+    background: linear-gradient(135deg, #ffffff, #fef3c7) !important;
+    border: 1px solid #fcd34d !important;
+    box-shadow: 0 20px 55px rgba(251, 191, 36, 0.2);
+}
+
+/* ========== ОСНОВНЫЕ ФОНЫ ========== */
+.adminPageLight .bg-white\/\[0\.03\] {
+    background-color: #ffffff !important;
+    border-color: #e2e8f0 !important;
+}
+
+.adminPageLight .bg-white\/\[0\.04\],
+.adminPageLight .bg-white\/\[0\.02\] {
+    background-color: #ffffff !important;
+    border-color: #e2e8f0 !important;
+}
+
+.adminPageLight .bg-white\/5,
+.adminPageLight .bg-white\/10 {
+    background-color: #f8fbff !important;
+    border-color: #dbeafe !important;
+}
+
+.adminPageLight .bg-white\/20 {
+    background-color: #e0ecff !important;
+}
+
+/* ========== КАРТОЧКИ ЗАКАЗОВ ========== */
+.adminPageLight .bg-black\/30 {
+    background-color: #ffffff !important;
+    border-color: #dbeafe !important;
+    box-shadow: 0 12px 30px rgba(148, 163, 184, 0.2);
+}
+
+.adminPageLight .bg-black\/50 {
+    background-color: #ffffff !important;
+    border-color: #c7d2fe !important;
+    box-shadow: 0 18px 40px rgba(99, 102, 241, 0.15);
+}
+
+/* ========== ГРАНИЦЫ ========== */
+.adminPageLight .border-white\/10 {
+    border-color: #e2e8f0 !important;
+}
+
+.adminPageLight .border-white\/20 {
+    border-color: #cbd5e1 !important;
+}
+
+.adminPageLight .border-white\/30 {
+    border-color: #94a3b8 !important;
+}
+
+/* ========== БЕЙДЖИ СТАТУСОВ ========== */
+.adminPageLight .bg-yellow-500\/20 {
+    background-color: #fde68a !important;
+    color: #92400e !important;
+}
+
+.adminPageLight .bg-emerald-500\/15 {
+    background-color: #bbf7d0 !important;
+    color: #047857 !important;
+}
+
+.adminPageLight .bg-sky-500\/15 {
+    background-color: #bae6fd !important;
+    color: #0369a1 !important;
+}
+
+.adminPageLight .bg-indigo-500\/15 {
+    background-color: #c7d2fe !important;
+    color: #4338ca !important;
+}
+
+.adminPageLight .bg-red-500\/20 {
+    background-color: #fecdd3 !important;
+    color: #b91c1c !important;
+}
+
+.adminPageLight .bg-red-500\/5 {
+    background-color: #fef2f2 !important;
+}
+
+/* ========== ФОРМЫ ========== */
+.adminPageLight .bg-\[\#111111\] {
+    background-color: #ffffff !important;
+    color: #1e293b !important;
+    border: 1px solid #e2e8f0 !important;
+}
+
+.adminPageLight textarea,
+.adminPageLight input {
+    background-color: #ffffff !important;
+    border-color: #e2e8f0 !important;
+    color: #1e293b !important;
+}
+
+.adminPageLight textarea::placeholder,
+.adminPageLight input::placeholder {
+    color: #94a3b8 !important;
+}
+
+.adminPageLight textarea:focus,
+.adminPageLight input:focus {
+    border-color: #f59e0b !important;
+    outline: none !important;
+}
+
+/* ========== ВЫДЕЛЕННЫЕ КАРТОЧКИ ========== */
+.adminPageLight .border-yellow-400 {
+    border-color: #f97316 !important;
+}
+
+.adminPageLight .bg-yellow-400\/5 {
+    background-color: #fff4d8 !important;
+}
+
+/* ========== HOVER ЭФФЕКТЫ ========== */
+.adminPageLight button:not(.bg-yellow-400):not(.bg-yellow-300):not(.bg-red-500):hover {
+    background-color: #e2e8ff !important;
+}
+
+.adminPageLight .hover\:border-white\/30:hover {
+    border-color: #cbd5e1 !important;
+}
+
+.adminPageLight .hover\:border-white\/50:hover {
+    border-color: #94a3b8 !important;
+}
+
+/* ========== ТЕНИ ========== */
+.adminPageLight [class*="shadow"] {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ========== ГРАДИЕНТЫ В МЕТРИКАХ ========== */
+.adminPageLight .bg-gradient-to-br.from-yellow-500\/40 {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), transparent) !important;
+}
+
+.adminPageLight .bg-gradient-to-br.from-emerald-500\/30 {
+    background: linear-gradient(135deg, rgba(5, 150, 105, 0.1), transparent) !important;
+}
+
+.adminPageLight .bg-gradient-to-br.from-sky-500\/30 {
+    background: linear-gradient(135deg, rgba(2, 132, 199, 0.1), transparent) !important;
+}
+
+.adminPageLight .bg-gradient-to-br.from-white\/15 {
+    background: linear-gradient(135deg, rgba(148, 163, 184, 0.1), transparent) !important;
+}
+
+/* ========== ДОПОЛНИТЕЛЬНЫЕ АКЦЕНТЫ ========== */
+.adminPageLight .bg-yellow-500\/10 {
+    background-color: #fef3c7 !important;
+}
+
+.adminPageLight .bg-emerald-500\/10 {
+    background-color: #d1fae5 !important;
+}
+
+/* ========== КНОПКА ОТКЛЮЧЕНИЯ ========== */
+.adminPageLight .border-red-500\/20 {
+    border-color: #fecaca !important;
+}
+
